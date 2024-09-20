@@ -1,0 +1,591 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Segoe UI",sans-serif;
+
+    box-sizing: border-box;
+}
+
+html,body{
+    width: 100%;
+    background-color: black;
+    height: 100%;
+ 
+   
+
+}
+
+body::-webkit-scrollbar{
+display: none;
+}
+/* mian_dev */
+#main{
+height: 100%;
+width: 100%;
+background-color: black;
+}
+
+
+/* Navigation-BAR */
+#NAV{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px ;
+   
+}
+.left-nav{
+    width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 3rem;
+    padding: 15px 15px ;
+    margin-left: 4rem;
+}
+.left-nav .logo{
+    color: antiquewhite;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+.logo{
+    margin-right: 6rem;
+}
+.dot-1 > i{
+    color: #dd4242;
+    font-size: 10px;
+    margin-right: 0.3rem;
+}
+.dot-2 > i{
+    color: white;
+    font-size: 10px;
+    margin-left: 0.3rem;}
+
+.Log .x{
+    font-size: 50px ;
+    font-weight: 600;
+    color: #dd4242;
+  
+   
+ 
+    
+}
+.Log{
+    font-size: 40px;
+    font-weight: 600;
+}
+.nav-items ul{
+   
+}
+.nav-items ul a {
+    text-decoration: none;
+    color: white;
+    text-transform: uppercase;
+margin: 1.8rem;
+    font-weight: 600;
+}
+.right-nav{
+    width: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-right: 4rem;
+}
+.right-nav > i{
+    color: white;
+    font-size: 2rem;
+}
+.right-nav a{
+text-decoration: none;
+color: white;
+border: 1.5px solid white;
+padding: 16px 24px ;
+transition: 0.4s;
+font-weight: 600;
+}
+.right-nav a:hover{
+    color:#dd4242;
+    border: 1.5px solid #dd4242 ;
+}
+.hover:hover{
+    color: white;
+}
+
+.right-nav a > i{
+    color:#dd4242;
+    font-size: 9px;
+    display: inline;
+    text-align: center;
+    margin-right: 0.5rem;
+    transition: 0.4s;
+}
+.lines{
+    display: flex !important;
+    flex-direction: column;
+    gap: 1rem !important;
+    cursor: pointer;
+
+}
+.line{
+    width: 40px;
+    height: 3px ;
+    background-color: white;
+    rotate: -45deg;
+}
+
+.line1:hover {
+    transform: translate(-20px);
+    transition: var(--smooth);
+}
+.line1 {
+    transform: translate(-20px);
+    transition: var(--smooth);
+}
+.line2 {
+    transform: translate(5px);
+   
+}
+.line3:hover{
+    transform: translate(-20px);
+    color: #dd4242;
+    transition: 0.3s ;
+    color: red;
+   
+}
+
+/* Navigation bar end */
+
+#hero-sec{
+    height: 100vh;
+    width: 100vw;
+    background-image: url(https://zainx.vercel.app/assets/image-D5fOrd5Z.png);
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: contain;
+    margin-top: -4rem;
+    margin-right: 1rem;
+
+
+}
+/* .girl-image{
+    background-image: url(https://zainx.vercel.app/assets/image-D5fOrd5Z.png);
+    background-size: contain;
+    background-position-x: top;
+    background-position: right;
+    background-repeat: no-repeat;
+    height: 50rem;
+    width: 100%;
+    height: 50vw;
+   
+  
+} */
+.Social-1{
+  height: 90%;
+  width: 10%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  /* background-color: red; */
+  position: absolute;
+  gap: 4rem;
+  top:10rem ;
+
+}
+
+.Social-1 i {
+    
+    font-size: 30px;
+    color: transparent ;
+    -webkit-text-stroke: 1px #6c757d;
+    /* position: absolute;
+    left: 3%;
+top: 10rem; */
+  
+}
+.Social-2{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 1rem;
+}
+.Social-2 > i{
+    color: #dd4242;
+    font-size: 0.7rem;
+}
+.Social-2 .socil-line{
+    width: 50px;
+    height: 1px;
+    background-color: #6c757d;
+    rotate: 90deg;
+    margin-top: 1rem;
+}
+.Social-2 h3{
+    color: white;
+    font-size: 1rem;
+    rotate: -90deg;
+    margin-top: 3rem;
+    letter-spacing: 5px;
+}
+
+
+#line-text{
+    position: absolute;
+    top: 21%;
+    margin-left: 10rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    width: 100%;
+    height: 10%;
+    /* background-color: red; */
+}
+.underline{
+    display: flex;
+    width: 70px;
+    height: 1px  ;
+  background-color:#6c757d;
+}
+#line-text > i{
+color: #dd4242;
+font-size: 0.7rem;
+}
+
+#line-text p{
+  color: #6c757d;  
+}
+
+#page-text{
+    position: absolute;
+    top: 35%;
+    left: 10%;
+    margin-right: 10rem;
+    /* background-color: red; */
+    width: 30%;
+    height: 50%;
+    gap: 1rem;
+    color: white;
+}
+#page-text h3{
+font-size: 4rem;
+}
+#page-text h3 > span{
+    color: #dd4242;
+}
+#page-text h3 i{
+    font-size: 0.7rem;
+    color: #dd4242;
+    }
+
+.paragrapgh{
+    color: #6c757d;  
+    margin-top: 1rem;
+    line-height: 30px;
+}
+
+
+
+
+#media-2{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 2rem;
+  
+}
+.part-1{
+    margin-top: 1rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.part-1 i{
+    color: #dd4242;
+    font-size: 0.7rem;
+}
+.arrow-1{
+    width: 70px;
+    height: 1px  ;
+  background-color:#6c757d; 
+}
+.part-2{
+    display: flex;
+    align-items: center;
+    gap:0.9rem;
+}
+.vedio-icon{
+    padding: 1rem;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #dd4242;
+    position: relative;
+}
+.vedio-icon > i{
+    font-size: 1rem;
+}
+/* Servies
+*/
+#servies{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 60%;
+    width: 100%;
+    padding: 3rem 3rem;
+  
+}
+.Ser-1 i{
+    
+    color: azure;
+    
+}
+.Ser-1 img{
+    height: 7rem;
+
+}
+.Ser-1 h3 {
+    font-size: 2rem;
+    color: white;
+}
+.Ser-1 p{
+    color: #6c757d;
+    line-height: 30px;
+}
+/* Protfolio-text */
+#Protfolio{
+    height: 35%;
+    width: 100%;
+    /* background-color: red; */
+}
+.galery-text{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    gap: 0.6rem;
+    align-content: center;
+    margin-top: 0.5rem;
+}
+.under-1{
+    width: 70px;
+    height: 1px  ;
+  background-color:white; 
+  margin-top: 3rem;
+}
+.galery-text > i {
+    color: #dd4242;
+    font-size: 0.7rem;
+    margin-top:2.8rem ;
+}
+
+.galery-text h6 {
+    font-size: 2rem;
+    color: #6c757d;
+    font-weight: 500;
+    margin-top: 1.8rem;
+}
+.prot-text{
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 1.6rem;
+
+}
+.prot-text h2{
+    font-size: 5rem;
+}
+
+#cards{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60vh;
+    gap: 1rem;
+   /* background-co lor:wh; */
+    width: 100%;
+}
+.card-1{
+     height: 350px;
+     width: 25%;
+     /* border: 1px solid red; */
+     background-image: url(https://gaaga.wpengine.com/wp-content/uploads/2023/06/home-portfolio-1.jpg);
+     background-position: center;
+     background-size: cover;
+     background-repeat: no-repeat;
+}
+
+.card-2 img{
+   
+
+height: 350px;
+width: 100%;
+background-position: center;
+background-size: cover;
+
+}
+.card-3 img{
+    display: flex;
+    height: 350px;
+    width:100%;
+    /* border: 2px solid red; */
+}
+
+
+/*  */
+
+#Projects{
+    height: 80%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 5rem 5rem;
+    /* background-color: blue; */
+}
+#left-text{
+    height: 100%;
+    width: 30%;
+    display: flex;
+    flex-direction: column;
+    /* background-color: red; */
+    color: white;
+    /* background-color: aqua;
+    
+    */
+    margin-top: 5rem;
+}
+#left-text h3{
+    font-size: 4rem;
+   
+    font-weight: bold;
+}
+/* .left-text h3 > span{
+    padding: 1px ;
+    background-color: #dd4242;
+    border-radius: 50%;
+    position: absolute;
+    left: 3%;
+    
+} */
+#left-text > i{
+    font-size: 6rem;
+    margin-top: -0.5rem;
+    left: 4%;
+    color: #dd4242;
+    position: absolute;
+    z-index: -1;
+}
+
+#left-text p{
+    margin-top: 1rem;
+    line-height: 30px;
+    color: #6c757d;
+}
+.right-images{
+    height: 100%;
+    width: 70%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: space-evenly;
+}
+ .img-0 img{
+    background-position: center;
+    background-size: contain;
+    height: 404px;
+    width: 412px;
+    /* border-radius: 20px; */
+}
+.Veiw-line{
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.6rem;
+    align-content: center;
+    margin-top: 18rem;
+    left: 5rem;
+    position: absolute;
+  
+}
+
+
+
+
+
+.Veiw-line .under-1{
+    width: 70px;
+    height: 1px  ;
+  background-color:white; 
+  margin-top: -0.2rem;
+ 
+}
+ .Veiw-line > i {
+    color: #dd4242;
+    font-size: 0.7rem;
+
+}
+
+.Veiw-line > h6 {
+    font-size: 1rem;
+    color: #6c757d;
+    font-weight: 500;
+
+}
+/*  punch-line*/
+#paunch-line{
+    height: 60%;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    padding: 48px 48px;
+}
+#paunch-line h2{
+    font-size: 3rem;
+   /* line-height: 35px; */
+    font-weight: 700;
+   color:white;
+}
+#paunch-line h2 > img{
+    border-radius: 50px;
+  
+  
+}
+
+/* Advantages */
+
+#experience{
+    height: 40%;
+    width: 100%;
+    /* background-color: hotpink; */
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 48px 48px;
+}
+.advan-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 0.4rem;
+}
+.advan-1 h3{
+    font-size: 10rem;
+    color: transparent ;
+        -webkit-text-stroke: 1px white;
+
+}
+.advan-1 h6{
+    font-size: 2rem;
+    color: white;
+    font-weight: 500;
+}
+
+/* Completed */
+/* Code by Farhan-Yousafzai */
